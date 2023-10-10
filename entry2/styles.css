@@ -1,0 +1,61 @@
+body {
+    height: 100 vh;
+    background: linear-gradient(
+        to right, 
+        rgb(48, 79, 44) 0%,
+        rgb(48, 79, 44) 50%,
+        rgb(253, 244, 210) 50%,
+        rgb(253, 244, 210) 100%
+    );
+
+    text-align: left;
+    margin: 0;
+    width: 70%;
+    padding: 0;
+   padding-left: 0px;
+   box sizing: border-box; 
+}
+
+.container {
+min height: 100 vh;
+width: 100%;
+display: flex;
+align-items: left;
+ justify-content: left;
+}
+
+img {
+width: 50 vw;
+height: 100vh;
+display: block;
+object-fit: cover;
+object-position: center;
+}
+
+h1 {
+color: rgb(235, 251, 214);
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+}
+
+h2 {
+color: rgb(235, 251, 214);
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+}
+
+p {
+color: rgb(235, 251, 214);
+font-family: Arial, Helvetica light, sans-serif;
+font-size: 20px;
+}
+
+marquee { 
+color: rgb(235, 251, 214);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+pre { 
+color:rgb(235, 251, 214);
+}

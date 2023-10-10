@@ -1,0 +1,70 @@
+body {
+    height: 100 vh;
+    background: linear-gradient(
+        to right, 
+        rgb(255, 252, 242) 0%,
+        rgb(255, 252, 242) 50%,
+        rgb(255, 252, 242) 50%,
+        rgb(255, 252, 242) 100%
+    );
+}
+
+h1 {
+    transition: transform 0.8s ease;
+    transform-origin: center;
+    color: rgb(228, 12, 155);
+    font-family: "didoni-urw", serif;
+font-weight: 520;
+font-style: normal;
+font-size: 70px;
+    text-align: left;
+    margin-left: 200px;
+ margin-bottom: 30px;
+
+  }
+
+  h1:hover {
+    transform: scale(1.2); 
+    color:rgb(200, 11, 137)
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.gallery-item {
+    max-width: 300px;
+    text-align: center;
+}
+
+.box {
+ width: 300px;
+ height: 400px;
+}
+
+
+.gallery-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+.caption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.gallery-item:hover img {
+    border: 20px;
+    border: 2px solid rgb(228, 12, 155);
+    border-radius: 5px;
+    
+
+
+}

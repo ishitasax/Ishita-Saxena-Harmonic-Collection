@@ -1,0 +1,182 @@
+body {
+    height: 100 vh;
+    background: linear-gradient(
+        to right, 
+        rgb(255, 252, 242) 0%,
+        rgb(255, 252, 242) 50%,
+        rgb(255, 252, 242) 50%,
+        rgb(255, 252, 242) 100%
+    );
+}
+
+
+h1 {
+    color: rgb(228, 12, 155);
+    font-family: "didoni-urw", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 76px;
+    text-align: left;
+    margin-left: 50px;
+ margin-top: 480px;
+ ;
+  }
+
+
+ 
+  a{
+    position: absolute;
+   color: rgb(228, 12, 155);
+        font-family: "serenity", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+        font-size: 25px;
+      left: 1350px;
+      bottom: 750px;
+      padding-right: 100px;
+
+  }
+
+  .first {
+    position: absolute; 
+    left: 80px; 
+    bottom: 660px;
+    color: rgb(200, 11, 137);
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+  }
+
+  .firstpara {
+    position: absolute; 
+    left: 100px; 
+    bottom: 580px;
+    color: rgb(228, 12, 155);
+    font-family: "serenity", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+  .second {
+    position: absolute; 
+    left: 600px; 
+    bottom: 660px;
+    color: rgb(200, 11, 137);
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+  }
+
+  .secondpara {
+    position: absolute; 
+    left: 620px; 
+    bottom: 560px;
+    color: rgb(228, 12, 155);
+    font-family: "serenity", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+  .third {
+    position: absolute; 
+    left: 1130px; 
+    bottom: 660px;
+    color: rgb(200, 11, 137);
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+  }
+
+  .thirdpara {
+    position: absolute; 
+    left: 1150px; 
+    bottom: 560px;
+    color: rgb(228, 12, 155);
+    font-family: "serenity", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+    
+ 
+  .fourth {
+    position: absolute; 
+    left: 600px; 
+    bottom: 420px;
+    color: rgb(200, 11, 137);
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+  }
+
+  .fourthpara { 
+    position: absolute; 
+    left: 620px; 
+    bottom:340px;
+    color: rgb(228, 12, 155);
+    font-family: "serenity", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+  .fifth {
+    position: absolute; 
+    left: 1130px; 
+    bottom: 420px;
+    color: rgb(200, 11, 137);
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .fifthpara
+  {
+    position: absolute; 
+    left: 1150px; 
+    bottom: 340px;
+    color: rgb(228, 12, 155);
+    font-family: "serenity", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+  .sixth {
+    position: absolute; 
+    left: 600px; 
+    bottom: 180px;
+    color: rgb(200, 11, 137);
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+  }
+
+  .sixthpara {
+    position: absolute; 
+    left: 620px; 
+    bottom: 100px;
+    color: rgb(228, 12, 155);
+    font-family: "serenity", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+  .seventh {
+    position: absolute; 
+    left: 1130px; 
+    bottom: 180px;
+    color: rgb(200, 11, 137);
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }

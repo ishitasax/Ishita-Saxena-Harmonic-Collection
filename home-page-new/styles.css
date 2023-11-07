@@ -1,0 +1,172 @@
+body {
+    height: 100 vh;
+    font-family: "didoni-urw", serif;
+    font-weight: 500;
+    font-style: normal;
+    background: linear-gradient(
+        to right, 
+        rgb(255, 252, 242) 0%,
+        rgb(255, 252, 242) 50%,
+        rgb(255, 252, 242) 50%,
+        rgb(255, 252, 242) 100%
+    );
+}
+
+
+h1 {
+  position: fixed;
+  font-weight: 500;
+  color: rgb(228, 12, 155);
+  font-size: 70px;
+  text-align: left;
+  margin-left: 50px;
+  bottom: 50px;
+margin-top: 480px;
+line-height: 2cm;
+}
+  
+
+  .first {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    position: absolute; 
+    left: 600px; 
+    top: 20px;
+    color: rgb(200, 11, 137);
+    font-weight: 500;
+    font-style: normal;
+    
+  }
+
+
+  .second {
+    position: absolute; 
+    left: 800px; 
+    top: 20px;
+    color: rgb(200, 11, 137);
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+  }
+
+  .third {
+    position: absolute; 
+    left: 1000px; 
+    top: 20px;
+    color: rgb(200, 11, 137);
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+  }
+
+
+  .fourth {
+    position: absolute; 
+    left: 1200px; 
+    top: 20px;
+    color: rgb(200, 11, 137);
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+  }
+
+
+.gallery {
+  width:50%;
+  position: absolute;
+  top:120px;
+  left: 750px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+opacity: 0%;
+transition: 2s;
+}
+
+.gallery:hover{
+  opacity: 100%;
+}
+
+/* .gallery-item: hover{
+  opacity: 0%;
+  
+} */
+
+
+.gallery-item {
+  max-width: 300px;
+  text-align: center;
+}
+
+.gallery-item img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.one{
+  margin-top: -20px;
+}
+.two{
+margin-top: -110px;
+}
+
+.three{
+
+  margin-top: -190px;
+  margin-left: 220px;
+}
+
+.four {
+  margin-left: -400px;
+}
+
+.five {
+  margin-top: 100px;
+}
+
+.six {
+  margin-top: -80px;
+ margin-left: 15px;
+}
+/* hover */
+
+.gallery-item:hover img {
+  opacity: 0%;
+  transition:opacity 1s;
+  }
+
+  .one:hover img {
+    opacity: 0%;
+  transition:opacity 1s;
+  }
+
+  .two:hover img {
+    opacity: 0%;
+  transition:opacity 1s;
+  }
+
+  .three:hover img {
+    opacity: 0%;
+  transition:opacity 1s;
+  }
+
+  .four:hover img {
+    opacity: 0%;
+  transition:opacity 1s;
+  }
+
+  .five:hover img {
+    opacity: 0%;
+  transition:opacity 1s;
+  }
+
+  .six:hover img {
+    opacity: 0%;
+  transition:opacity 1s;
+  }
+
+  

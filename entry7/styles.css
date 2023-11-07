@@ -1,0 +1,105 @@
+body {
+    height: 100 vh;
+    background: linear-gradient(
+        to right, 
+        rgb(255, 252, 242) 0%,
+        rgb(255, 252, 242) 50%,
+        rgb(255, 252, 242) 50%,
+        rgb(255, 252, 242) 100%
+    );
+}
+
+/* Define the class to style the shorter horizontal line */
+.horizontal-line {
+  width: 50%; /* Make it half the width of its container */
+  height: 1.5px; /* Reduce the height by 0.5 pixels */
+  background-color: rgb(228, 12, 155); /* Set the line color */
+  margin-left: 450px;
+
+}
+
+
+
+h1 {
+    color: rgb(228, 12, 155);
+    font-family: "didoni-urw", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 70px;
+line-height: 60px;
+    text-align: left;
+    margin-left: 50px;
+ margin-top: 40px;
+ ;
+  }
+
+
+ 
+  .home {
+    position: absolute; 
+    left: 600px; 
+    top: 20px; 
+    color: rgb(200, 11, 137);
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+  }
+
+  .about {
+    position: absolute; 
+    left: 800px; 
+    top: 20px;
+    color: rgb(200, 11, 137);
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+  }
+
+  .gallery {
+    position: absolute; 
+    left: 1000px; 
+    bottom: 780px;
+    color: rgb(200, 11, 137);
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+  }
+
+  .neighborhoods {
+    position: absolute; 
+    left: 1200px; 
+    bottom: 780px;
+    color: rgb(200, 11, 137);
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+  }
+
+
+  .first {
+    position: absolute; 
+    left: 80px; 
+    bottom: 660px;
+    color: rgb(200, 11, 137);
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+  }
+
+  .firstpara {
+    position: absolute; 
+    left: 100px; 
+    bottom: 80px;
+    color: rgb(228, 12, 155);
+    font-family: "serenity", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+  

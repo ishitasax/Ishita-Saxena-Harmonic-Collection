@@ -13,18 +13,30 @@ body {
 h1 {
     color: rgb(228, 12, 155);
     font-family: "didoni-urw", serif;
-font-weight: 400;
+font-weight: 500;
 font-style: normal;
-font-size: 76px;
+font-size: 70px;
     text-align: left;
     margin-left: 50px;
+    bottom: 50px;
  margin-top: 480px;
- ;
+ line-height: 2cm;
   }
-
-
  
-  .home {
+  /* a{
+    position: absolute;
+   color: rgb(228, 12, 155);
+        font-family: "serenity", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+        font-size: 25px;
+      left: 1350px;
+      bottom: 750px;
+      padding-right: 100px;
+
+  } */
+
+  .first {
     position: absolute; 
     left: 600px; 
     bottom: 780px;
@@ -35,7 +47,18 @@ font-size: 76px;
     
   }
 
-  .about {
+  /* .firstpara {
+    position: absolute; 
+    left: 100px; 
+    bottom: 580px;
+    color: rgb(228, 12, 155);
+    font-family: "serenity", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+  } */
+
+  .second {
     position: absolute; 
     left: 800px; 
     bottom: 780px;
@@ -46,7 +69,18 @@ font-size: 76px;
     
   }
 
-  .gallery {
+  /* .secondpara {
+    position: absolute; 
+    left: 620px; 
+    bottom: 560px;
+    color: rgb(228, 12, 155);
+    font-family: "serenity", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+  } */
+
+  .third {
     position: absolute; 
     left: 1000px; 
     bottom: 780px;
@@ -57,7 +91,20 @@ font-size: 76px;
     
   }
 
-  .neighborhoods {
+  /* .thirdpara {
+    position: absolute; 
+    left: 1150px; 
+    bottom: 560px;
+    color: rgb(228, 12, 155);
+    font-family: "serenity", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+  } */
+
+    
+ 
+  .fourth {
     position: absolute; 
     left: 1200px; 
     bottom: 780px;
@@ -68,87 +115,7 @@ font-size: 76px;
     
   }
 
-
-  .first {
-    position: absolute; 
-    left: 80px; 
-    bottom: 660px;
-    color: rgb(200, 11, 137);
-    font-family: "itc-avant-garde-gothic-pro", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    
-  }
-
-  .firstpara {
-    position: absolute; 
-    left: 100px; 
-    bottom: 580px;
-    color: rgb(228, 12, 155);
-    font-family: "serenity", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 20px;
-  }
-
-  .second {
-    position: absolute; 
-    left: 600px; 
-    bottom: 660px;
-    color: rgb(200, 11, 137);
-    font-family: "itc-avant-garde-gothic-pro", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    
-  }
-
-  .secondpara {
-    position: absolute; 
-    left: 620px; 
-    bottom: 560px;
-    color: rgb(228, 12, 155);
-    font-family: "serenity", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 20px;
-  }
-
-  .third {
-    position: absolute; 
-    left: 1130px; 
-    bottom: 660px;
-    color: rgb(200, 11, 137);
-    font-family: "itc-avant-garde-gothic-pro", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    
-  }
-
-  .thirdpara {
-    position: absolute; 
-    left: 1150px; 
-    bottom: 560px;
-    color: rgb(228, 12, 155);
-    font-family: "serenity", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 20px;
-  }
-
-    
- 
-  .fourth {
-    position: absolute; 
-    left: 600px; 
-    bottom: 420px;
-    color: rgb(200, 11, 137);
-    font-family: "itc-avant-garde-gothic-pro", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    
-  }
-
-  .fourthpara { 
+  /* .fourthpara { 
     position: absolute; 
     left: 620px; 
     bottom:340px;
@@ -157,9 +124,9 @@ font-size: 76px;
     font-weight: 200;
     font-style: normal;
     font-size: 20px;
-  }
+  } */
 
-  .fifth {
+  /* .fifth {
     position: absolute; 
     left: 1130px; 
     bottom: 420px;
@@ -167,9 +134,9 @@ font-size: 76px;
     font-family: "itc-avant-garde-gothic-pro", sans-serif;
     font-weight: 500;
     font-style: normal;
-  }
+  } */
 
-  .fifthpara
+  /* .fifthpara
   {
     position: absolute; 
     left: 1150px; 
@@ -179,9 +146,9 @@ font-size: 76px;
     font-weight: 200;
     font-style: normal;
     font-size: 20px;
-  }
+  } */
 
-  .sixth {
+  /* .sixth {
     position: absolute; 
     left: 600px; 
     bottom: 180px;
@@ -192,7 +159,7 @@ font-size: 76px;
     
   }
 
-  .sixthpara {
+  /* .sixthpara {
     position: absolute; 
     left: 620px; 
     bottom: 100px;
@@ -201,9 +168,9 @@ font-size: 76px;
     font-weight: 200;
     font-style: normal;
     font-size: 20px;
-  }
+  } */
 
-  .seventh {
+  /* .seventh {
     position: absolute; 
     left: 1130px; 
     bottom: 180px;
@@ -211,4 +178,4 @@ font-size: 76px;
     font-family: "itc-avant-garde-gothic-pro", sans-serif;
     font-weight: 500;
     font-style: normal;
-  }
+  } */ 

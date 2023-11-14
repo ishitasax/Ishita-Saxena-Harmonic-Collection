@@ -4,11 +4,9 @@
   box-sizing: border-box;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* ------------ */
+
+
 
 .section h1 {
   position: absolute;
@@ -20,7 +18,8 @@
   left: 50%;
   transform: translate(-50%, -20%);
   color: rgb(255, 255, 255);
-  transition: opacity 0.4s; /* Add a transition for a smooth effect */
+  transition: opacity 0.5s; /* Add a transition for a smooth effect */
+  transition-delay: 0.2s;
 }
 
 .section p {
@@ -36,11 +35,13 @@
 }
 
 .section:hover h1 {
-  opacity: 0; /* Hide the <h1> when hovering */
+  top: 35%;
+  left: 50%;
 }
 
 .section:hover p {
   opacity: 1; /* Display the <p> when hovering */
+
 }
 
 /* ---------------- */

@@ -1,6 +1,6 @@
 :root {  
-  --green: rgb(42, 252, 152);
-  --blue:rgb(231, 77, 0);;
+  --green: rgb(168, 42, 252);
+  --blue: rgb(228, 12, 155);
 }
 
 @keyframes float {
@@ -25,7 +25,7 @@
 
 body {
   height: 100vh;
-  background-color: rgb(6, 57, 37);
+  color: rgb(255, 255, 255);
   margin: 0rem;
   overflow: hidden;
   display: grid;
@@ -37,7 +37,7 @@ p {
    max-width: 70%;
    margin-left: 100px;
    font-size: 20px;
-   color:rgb(231, 77, 0);
+   color: rgb(228, 12, 155);
    font-family: "serenity", sans-serif;
   
  }
@@ -54,7 +54,7 @@ p {
 }
 
 .word {
-  color: white;
+  color: rgb(228, 12, 155);
   font-size: clamp(2rem, 8vw, 10rem);
   font-family: "Rubik", sans-serif;
   margin: 0rem;

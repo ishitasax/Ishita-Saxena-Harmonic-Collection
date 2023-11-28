@@ -1,4 +1,4 @@
-body {
+/* body {
     height: 100 vh;
     font-family: "didoni-urw", serif;
     font-weight: 500;
@@ -10,7 +10,19 @@ body {
         rgb(255, 252, 242) 50%,
         rgb(255, 252, 242) 100%
     );
+} */
+
+body {
+  height: 100vh;
+  font-family: "didoni-urw", serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: black; /* Change the background color to black */
+  color: white; /* Set the text color to white for better visibility */
 }
+
+
+
 
 
 h1 {
@@ -54,7 +66,7 @@ line-height: 2cm;
   .third {
     position: absolute; 
     left: 1100px; 
-    top: 20px;
+    top: px;
     color: rgb(231, 77, 0);
     font-family: "itc-avant-garde-gothic-pro", sans-serif;
     font-weight: 500;
@@ -63,7 +75,7 @@ line-height: 2cm;
   }
 
 
-  .fourth {
+  /* .fourth {
     position: absolute; 
     left: 1200px; 
     top: 20px;
@@ -72,7 +84,24 @@ line-height: 2cm;
     font-weight: 500;
     font-style: normal;
     
-  }
+  } */
+
+  .home-link {
+    position: absolute; 
+    left: 1200px; 
+    top: 32px;
+    color: rgb(231, 77, 0);
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.home-link:hover {
+    border-bottom: 2px solid rgb(231, 77, 0);
+}
 
 
 .gallery {

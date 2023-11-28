@@ -17,16 +17,18 @@ h1 {
   font-style: normal;
   color: rgb(231, 77, 0);
   text-align: left;
-  margin-left: 10px;
-bottom: 650px;
+  margin-left: 50px;
+bottom: 200px;
 line-height: 2cm;
 }
 
 p {
   position: relative;
-   max-width: 57%;
-   margin-left: 10px;
-   margin-bottom: 200px;
+  display: grid;
+  justify-items: center;
+   max-width: 70%;
+   margin-left: 250px;
+   margin-bottom: 40px;
    font-size: 20px;
    color:rgb(231, 77, 0);
    font-family: "serenity", sans-serif;

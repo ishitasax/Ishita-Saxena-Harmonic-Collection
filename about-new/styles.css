@@ -25,17 +25,32 @@
 
 body {
   height: 100vh;
-  background-color: black;
+  background-color: rgb(6, 57, 37);
   margin: 0rem;
   overflow: hidden;
   display: grid;
   place-items: center;
 }
 
+p {
+  position: absolute;
+   max-width: 70%;
+   margin-left: 100px;
+   font-size: 20px;
+   color:rgb(231, 77, 0);
+   font-family: "serenity", sans-serif;
+  
+ }
+
+
 .line {
   display: flex;
   justify-content: space-between;
   bottom: 100px;
+  font-family: "azo-sans-web", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  margin-bottom: 600px;
 }
 
 .word {
@@ -138,13 +153,13 @@ body.menu-toggled > .meta-link > span {
   color: rgb(30, 30, 30);
 }
 
-#source-link {
+/* #source-link {
   bottom: 60px;
 }
 
 #source-link > i {
   color: rgb(94, 106, 210);
-}
+} */
 
 #yt-link > i {
   color: rgb(239, 83, 80);

@@ -1,7 +1,27 @@
 body {
   margin: 0;
   overflow: hidden;
+  background-color: hsl(0, 0%, 100%);
 }
+
+h1 {
+  position: fixed;
+  font-size: 64px;
+  font-family: "azo-sans-web", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  margin-left: 50px;
+  bottom: 50px;
+margin-top: 480px;
+line-height: 2cm;
+}
+
+/* .h2 { font-family: "serenity", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+} */
 
 .circle-container {
   position: absolute;
@@ -40,52 +60,52 @@ body {
 }
 
 .circle-1 {
-  background-color: #ff3c6d;
+  background-color: rgb(228, 12, 155);
   color: #ffffff;
 }
 
 .circle-2 {
-  background-color: #fd5340;
+  background-color:rgb(10, 33, 95);
   color: #ffffff;
 }
 
 .circle-3 {
-  background-color: #ff6e25;
+  background-color:  rgb(33, 90, 81);
   color: #ffffff;
 }
 
 .circle-4 {
-  background-color: #f8994c;
+  background-color: #CB9576;
   color: #ffffff;
 }
 
 .circle-5 {
-  background-color: #ffa32a;
+  background-color: #7FA0AC;
   color: #ffffff;
 }
 
 .circle-6 {
-  background-color: #f95757;
+  background-color: rgb(228, 12, 155);
   color: #ffffff;
 }
 
 .circle-7 {
-  background-color: #e4419b;
+  background-color: rgb(10, 33, 95);
   color: #ffffff;
 }
 
 .circle-8 {
-  background-color: #564cc7;
+  background-color:  rgb(33, 90, 81);
   color: #ffffff;
 }
 
 .circle-9 {
-  background-color: #19acbd;
+  background-color: #CB9576;
   color: #ffffff;
 }
 
 .circle-10 {
-  background-color: #57ac6b;
+  background-color: #7FA0AC;
   color: #ffffff;
 }
 

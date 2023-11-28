@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.circle-container {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  right: 0;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.circle-content {
+  text-align: center;
+}
+
+.circle-title {
+  margin-bottom: 5px;
+}
+
+.circle-subtitle {
+  font-size: 14px;
+}
+
+.circle-1 {
+  background-color: #ff3c6d;
+  color: #ffffff;
+}
+
+.circle-2 {
+  background-color: #fd5340;
+  color: #ffffff;
+}
+
+.circle-3 {
+  background-color: #ff6e25;
+  color: #ffffff;
+}
+
+.circle-4 {
+  background-color: #f8994c;
+  color: #ffffff;
+}
+
+.circle-5 {
+  background-color: #ffa32a;
+  color: #ffffff;
+}
+
+.circle-6 {
+  background-color: #f95757;
+  color: #ffffff;
+}
+
+.circle-7 {
+  background-color: #e4419b;
+  color: #ffffff;
+}
+
+.circle-8 {
+  background-color: #564cc7;
+  color: #ffffff;
+}
+
+.circle-9 {
+  background-color: #19acbd;
+  color: #ffffff;
+}
+
+.circle-10 {
+  background-color: #57ac6b;
+  color: #ffffff;
+}
+
+.circle:hover {
+  transform: scale(1.2);
+}

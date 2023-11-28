@@ -32,6 +32,23 @@ body {
   place-items: center;
 }
 
+/* .home-link {
+  position: absolute; 
+  left: 1200px; 
+  top: 32px;
+  color: rgb(228, 12, 155);
+  font-family: "itc-avant-garde-gothic-pro", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.home-link:hover {
+  border-bottom: 2px solid rgb(228, 12, 155);
+} */
+
 p {
   position: absolute;
    max-width: 70%;
@@ -41,6 +58,8 @@ p {
    font-family: "serenity", sans-serif;
   
  }
+
+ 
 
 
 .line {

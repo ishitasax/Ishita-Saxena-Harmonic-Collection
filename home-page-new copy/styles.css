@@ -62,7 +62,7 @@ line-height: 2cm;
     font-style: normal;
     
   }
-
+/* 
   .third {
     position: absolute; 
     left: 1100px; 
@@ -72,7 +72,7 @@ line-height: 2cm;
     font-weight: 500;
     font-style: normal;
     
-  }
+  } */
 
 
   /* .fourth {
@@ -85,6 +85,24 @@ line-height: 2cm;
     font-style: normal;
     
   } */
+
+.about-link {
+    position: absolute; 
+    left: 1100px; 
+    top: 32px;
+    color: rgb(231, 77, 0);
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.about-link:hover {
+    border-bottom: 2px solid rgb(231, 77, 0);
+}
+
 
   .home-link {
     position: absolute; 

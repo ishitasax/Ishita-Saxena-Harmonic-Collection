@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  background-color: #ffffff;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#title {
+  position: fixed;
+  font-size: 64px;
+  font-family: "etna", sans-serif;
+  /* bottom: 20px;
+  left: 20px; */
+  color: #0E6F85;
+  transform: rotate(-90deg);
+  transform-origin: bottom left;
+  margin-bottom: -500px;
+  margin-left: -680px;
+  line-height: 70px;
+}
+
+#loveLetter {
+  color: #000; 
+  /* text-align: center; */
+  font-family: "quasimoda", sans-serif;
+font-weight: 400;
+  font-size: 14px;
+  max-width: 60%;
+  margin: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  overflow-y: auto; /* Enable vertical scrolling */
+  max-height: 85vh; 
+}
+
+.vertical-line {
+  position: fixed;
+  left: 15%;
+  bottom: 8%;
+  transform: translateX(-50%); /* Center the line horizontally */
+  width: 1.5px; /* Adjust the width of the line */
+  height: 80vh;
+  background-color: #0E6F85; /* Adjust the color of the line */
+  z-index: 1; /* Ensure the line is above other content */
+}

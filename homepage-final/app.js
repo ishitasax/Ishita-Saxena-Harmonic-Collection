@@ -1,5 +1,7 @@
 /* -- Glow effect -- */
 
+
+
 const blob = document.getElementById("blob");
 
 window.onpointermove = event => { 
@@ -41,3 +43,6 @@ document.querySelector("h1").onmouseover = event => {
     iteration += 1 / 3;
   }, 30);
 }
+
+
+

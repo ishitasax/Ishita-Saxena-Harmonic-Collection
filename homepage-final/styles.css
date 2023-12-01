@@ -1,25 +1,37 @@
 body {
   margin: 0;
   overflow: hidden;
-  background-color: hsl(0, 0%, 100%);
+  background-color: #000000;
+  /* background-color: #EEECEA; */
 }
 
 h1 {
   position: fixed;
-  font-size: 64px;
-  font-family: "azo-sans-web", sans-serif;
-  font-weight: 900;
+  font-size: 82px;
+  font-family: "etna", sans-serif;
+  font-weight: 800;
   font-style: normal;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-align: left;
-  margin-left: 50px;
-  bottom: 50px;
-margin-top: 480px;
-line-height: 2cm;
+  margin-left: 70px;
+  bottom: 65px;
+  margin-top: 480px;
+  line-height: 2cm;
 }
 
-/* .h2 { font-family: "serenity", sans-serif;
-  font-weight: 100;
+h3{
+  color: rgb(255, 255, 255);
+  font-family: "quasimoda", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  position: fixed;
+  margin-left: 72px;
+  bottom: 60px;
+}
+
+/* .h2 { font-family: "quasimoda", sans-serif;
+  font-weight: 400;
+    font-size: 14px;
   font-style: normal;
 } */
 
@@ -32,13 +44,13 @@ line-height: 2cm;
 }
 
 .circle {
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 188px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px;
+  /* right: 100px; */
   text-decoration: none;
   font-weight: bold;
   font-size: 24px;
@@ -48,67 +60,159 @@ line-height: 2cm;
 }
 
 .circle-content {
-  text-align: center;
+font-style: normal;
 }
 
 .circle-title {
+  text-align: center;
+  font-family: "quasimoda", sans-serif;
+font-weight: 700;
+font-style: normal;
   margin-bottom: 5px;
+  line-height: 100%;
+  opacity: 80%;
 }
 
 .circle-subtitle {
+  text-align: center;
+  font-family: "quasimoda", sans-serif;
+font-weight: 400;
   font-size: 14px;
+  opacity: 80%;
 }
 
-.circle-1 {
-  background-color: rgb(228, 12, 155);
-  color: #ffffff;
-}
-
-.circle-2 {
-  background-color:rgb(10, 33, 95);
-  color: #ffffff;
-}
-
-.circle-3 {
-  background-color:  rgb(33, 90, 81);
-  color: #ffffff;
-}
-
-.circle-4 {
-  background-color: #CB9576;
-  color: #ffffff;
-}
-
-.circle-5 {
-  background-color: #7FA0AC;
-  color: #ffffff;
-}
-
-.circle-6 {
-  background-color: rgb(228, 12, 155);
-  color: #ffffff;
-}
-
-.circle-7 {
-  background-color: rgb(10, 33, 95);
-  color: #ffffff;
-}
-
-.circle-8 {
-  background-color:  rgb(33, 90, 81);
-  color: #ffffff;
-}
-
-.circle-9 {
-  background-color: #CB9576;
-  color: #ffffff;
-}
-
-.circle-10 {
-  background-color: #7FA0AC;
-  color: #ffffff;
+.circle img {
+  width: 100%; /* Make the image fill the circle */
+  height: 100%; /* Make the image fill the circle */
+  object-fit: cover; /* Maintain aspect ratio and cover the circle */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: transform 0.3s ease;
 }
 
 .circle:hover {
   transform: scale(1.2);
 }
+
+.circle-1 {
+  position: absolute;
+  /* background-color: #E40C9B; */
+  margin-left: -845px;
+  margin-top: 80px;
+  color: #ffffff;
+}
+
+.circle-1:hover {
+  background-color: #E40C9B; /* Change color on hover */
+}
+
+.circle-2 {
+  position: absolute;
+  margin-left: -630px;
+  margin-top: 30px;
+  /* background-color:#EDC14F; */
+  color: #ffffff;
+}
+
+.circle-2:hover {
+  background-color: #EDC14F; /* Change color on hover */
+}
+
+.circle-3 {
+  position: absolute;
+  margin-left: -820px;
+  margin-top: 300px;
+  /* background-color: #EB7262 ; */
+  color: #ffffff;
+}
+
+.circle-3:hover {
+  background-color: #EB7262; /* Change color on hover */
+}
+
+.circle-4 {
+  position: absolute;
+  margin-left: -600px;
+  margin-top: 240px;
+  /* background-color: #F574A2; */
+  color: #ffffff;
+}
+
+.circle-4:hover {
+  background-color: #F574A2; /* Change color on hover */
+}
+
+
+.circle-5 {
+  position: absolute;
+  margin-left: -430px;
+  margin-top: 120px;
+  /* background-color: #99BF5A; */
+  color: #ffffff;
+}
+
+.circle-5:hover {
+  background-color: #99BF5A; /* Change color on hover */
+}
+
+.circle-6 {
+  position: absolute;
+  margin-left: -615px;
+  margin-top: 450px;
+  /* background-color: #B184CD; */
+  color: #ffffff;
+}
+
+.circle-6:hover {
+  background-color: #B184CD; /* Change color on hover */
+}
+
+.circle-7 {
+  position: absolute;
+  margin-left: -400px;
+  margin-top: 335px;
+  /* background-color: #44A98B; */
+  color: #ffffff;
+}
+
+.circle-7:hover {
+  background-color: #44A98B; /* Change color on hover */
+}
+
+.circle-8 {
+  position: absolute;
+  margin-left: -230px;
+  margin-top: 220px;
+  /* background-color: #0E6F85; */
+  color: #ffffff;
+}
+
+.circle-8:hover {
+  background-color:  #0E6F85; /* Change color on hover */
+}
+
+.circle-9 {
+  position: absolute;
+  margin-left: -400px;
+  margin-top: 550px;
+  /* background-color: #682E8C; */
+  color: #ffffff;
+}
+
+.circle-8:hover {
+  background-color:  #682E8C; /* Change color on hover */
+}
+
+.circle-10 {
+  position: absolute;
+  margin-left: -210px;
+  margin-top: 430px;
+  background-color: #1D3D93;
+  color: #ffffff;
+}
+
+/* .circle:hover {
+  transform: scale(1.2);
+} */

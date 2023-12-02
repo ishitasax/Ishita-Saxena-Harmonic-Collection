@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Title Here</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/ekv2exw.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <svg xmlns="http://www.w3.org/2000/svg" width="600" height="200" viewBox="0 0 1300 399">
+        <defs>
+            <style>
+                .cls-1 {
+                    fill: #FAF8FF;
+                    stroke: none;
+                    stroke-width: 2px;
+                    font-size: 387px;
+                    font-family: Gabriola;
+                    stroke-dasharray: 1360;
+                    animation-iteration-count: 1;
+                    animation: csvg 3s cubic-bezier(0, 0.23, 1, .1);
+                }
+
+                @keyframes csvg {
+                    0% {
+                        stroke: #fff;
+                        stroke-width: 2px;
+                        opacity: 0;
+                        fill: none;
+                        stroke-dasharray: 0;
+                    }
+                    30% {
+                        stroke: #fff;
+                        stroke-width: 2px;
+                        opacity: 10;
+                        fill: none;
+                    }
+                    80% {
+                        stroke: #fff;
+                        stroke-width: 2px;
+                        fill: rgba(255, 255, 255, 0);
+                    }
+                    100% {
+                        opacity: 10;
+                        fill: #FFE7FF;
+                        stroke-dasharray: 1360;
+                        outline: none;
+                        stroke: none;
+                    }
+                }
+            </style>
+        </defs>
+        <text id="id" data-name="Nihil Babu" class="cls-1" transform="translate(6 271)">
+            <tspan x="0" y="0">about</tspan>
+        </text>
+    </svg>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -5,6 +5,8 @@ body {
   /* background-color: #EEECEA; */
 }
 
+
+
 h1 {
   position: fixed;
   font-size: 82px;
@@ -17,6 +19,7 @@ h1 {
   bottom: 65px;
   margin-top: 480px;
   line-height: 2cm;
+
 }
 
 h3{
@@ -29,6 +32,11 @@ h3{
   bottom: 60px;
 }
 
+
+/* ----------------------------------- */
+
+
+/* ---------------------------------- */
 /* .h2 { font-family: "quasimoda", sans-serif;
   font-weight: 400;
     font-size: 14px;

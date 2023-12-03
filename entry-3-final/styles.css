@@ -82,7 +82,7 @@ h2 {
   text-align: center;
   color: #333;
   margin-bottom: 5px;
-  font-size: 15px; /* Adjust the font size to make h2 smaller */
+  font-size: 16px; /* Adjust the font size to make h2 smaller */
   font-weight: lighter; /* Adjust the font weight to make it lighter */
 }
 
@@ -95,14 +95,14 @@ h2 {
   font-family: "quasimoda", sans-serif;
   margin-top: -10px;
   text-align: center;
-  font-size: 15px;
+  font-size: 16px;
   color: #777;
 }
 
 .dine-in {
   font-family: "quasimoda", sans-serif;
   text-align: center;
-  font-size: 15px;
+  font-size: 16px;
   color: #777;
   margin-top: -50px;
   margin-bottom: 20px 0;

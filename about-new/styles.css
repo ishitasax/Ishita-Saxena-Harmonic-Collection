@@ -2,14 +2,14 @@
 
 h1{
   position: fixed;
-  font-size: 70px;
+  font-size: 82px;
   font-family: "etna", sans-serif;
   /* bottom: 20px;
   left: 20px; */
   color: #E40C9B;
   transform: rotate(-90deg);
   transform-origin: bottom left;
-  margin-bottom: 500px;
+  margin-bottom: 430px;
   margin-left: -900px;
   line-height: 70px;
 }
@@ -21,6 +21,38 @@ body {
   overflow: hidden;
   display: grid;
   place-items: center;
+}
+
+.home-button:hover span {
+  text-decoration: underline;
+}
+
+.home-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  display: inline-block; /* Add this to make the anchor behave like a block element */
+  text-decoration: none;
+}
+
+.circle-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+span {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 1.2em;
+  color: #333;
 }
 
 .vertical-line {

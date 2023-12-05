@@ -9,7 +9,7 @@ h1{
   color: #E40C9B;
   transform: rotate(-90deg);
   transform-origin: bottom left;
-  margin-bottom: 430px;
+  margin-bottom: 420px;
   margin-left: -900px;
   line-height: 70px;
 }
@@ -58,7 +58,7 @@ span {
 .vertical-line {
   position: fixed;
   left: 15%;
-  bottom: 60%;
+  bottom: 55%;
   transform: translateX(-50%); /* Center the line horizontally */
   width: 1.5px; /* Adjust the width of the line */
   height: 60vh;
@@ -70,12 +70,14 @@ span {
 
 p {
   color: #000; 
-  text-align: left;
+  text-align: justify;
   font-family: "quasimoda", sans-serif;
 font-weight: 400;
   font-size: 14px;
-  max-width: 60%;
-  margin: 20px;
+  max-width: 50%;
+  /* margin: 20px; */
+  margin-top: 10%;
+  margin-left: 10%;
   font-size: 18px;
   line-height: 1.5;
   white-space: pre-wrap;

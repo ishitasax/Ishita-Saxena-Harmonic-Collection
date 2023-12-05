@@ -8,17 +8,48 @@ body {
   overflow: hidden;
 }
 
+.home-button:hover span {
+  text-decoration: underline;
+}
+
+.home-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  display: inline-block; /* Add this to make the anchor behave like a block element */
+  text-decoration: none;
+}
+
+.circle-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+span {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 1.2em;
+  color: #333;
+}
 
 h1 {
   position: fixed;
-  font-size: 54px;
-  font-family: "azo-sans-web", sans-serif;
-  font-weight: 900;
+  font-size: 82px;
+  font-family: "etna", sans-serif;
+  font-weight: 800;
   font-style: normal;
-  color: rgb(231, 77, 0);
+  color: #EDC14F;
   text-align: left;
   margin-left: 50px;
-bottom: 200px;
+bottom: 150px;
 line-height: 2cm;
 }
 
@@ -30,7 +61,7 @@ p {
    margin-left: 250px;
    margin-bottom: 40px;
    font-size: 20px;
-   color:rgb(231, 77, 0);
+   color:black;
    font-family: "serenity", sans-serif;
   
  }

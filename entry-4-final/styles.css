@@ -4,12 +4,35 @@ h1 {
   font-family: "etna", sans-serif;
   font-weight: 800;
   font-style: normal;
-  color: rgb(0, 0, 0);
+  color: #F574A2;
   margin-top: 10px;
   text-align: left;
   margin-left: 50px;
   /* bottom: 622px;
   line-height: 2cm;  */
+}
+ 
+h3 {
+  color: rgb(0, 0, 0);
+  font-family: "quasimoda", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+h2 {
+  color: rgb(33, 32, 32);
+  font-family: "quasimoda", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+hr {
+  border: none;
+  width: 80%;
+  border-top: 1.5px solid #000000; /* Thin line color */
+  margin-top: -50px;
+  margin-left: 40px;
+  padding: 0;
 }
 
 .home-button:hover span {
@@ -45,8 +68,6 @@ span {
 }
 
 
-
-@import url('https://fonts.googleapis.com/css?family=Barlow:400,500,700');
 
 * {
   box-sizing: border-box;
@@ -91,7 +112,7 @@ body {
 img {
  
 	width: 100%;
-  height: 500px;
+  height: 400px;
 	object-fit: cover;
   transform: scale(1);
   transition: all 0.3s ease-in-out;

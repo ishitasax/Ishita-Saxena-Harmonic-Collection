@@ -47,7 +47,7 @@ h1 {
   font-family: "etna", sans-serif;
   font-weight: 800;
   font-style: normal;
-  color: rgb(0, 0, 0);
+  color: #EB7262;
   text-align: left;
   margin-left: 70px;
   bottom: 622px;
@@ -165,4 +165,35 @@ h2 {
   text-align: right;
   font-size: 1.2em;
   color: #333;
+}
+
+.arrow-button {
+  position: fixed;
+  bottom: 50%;
+  font-size: 24px;
+  width: 35px;
+  height: 35px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #000000; /* Default button color */
+  color: #fff;
+  border-radius: 50%; /* Circular shape */
+  cursor:pointer;
+  transition: background-color 0.3s ease;
+}
+
+.arrow-button:hover {
+  background-color: #2980b9; /* Button color on hover */
+}
+
+.arrow-button:active {
+  background-color: #1f618d; /* Button color on click */
+}
+
+#prevButton {
+  left: 10px;
+}
+
+#nextButton {
+  right: 10px;
 }

@@ -99,3 +99,33 @@ font-weight: 400;
   margin-bottom: 600px;
 }
 
+.arrow-button {
+  position: fixed;
+  bottom: 50%;
+  font-size: 24px;
+  width: 35px;
+  height: 35px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #000000; /* Default button color */
+  color: #fff;
+  border-radius: 50%; /* Circular shape */
+  cursor:pointer;
+  transition: background-color 0.3s ease;
+}
+
+.arrow-button:hover {
+  background-color: #2980b9; /* Button color on hover */
+}
+
+.arrow-button:active {
+  background-color: #1f618d; /* Button color on click */
+}
+
+#prevButton {
+  left: 10px;
+}
+
+#nextButton {
+  right: 10px;
+}

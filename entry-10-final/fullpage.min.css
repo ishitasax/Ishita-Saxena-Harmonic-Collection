@@ -1,0 +1,25 @@
+function submitAnswer() {
+    var userInput = document.getElementById("userInput").value;
+
+    if (userInput.trim() !== "") {
+        /* // Create a new paragraph element */
+        var newText = document.createElement("p");
+
+        /* // Set the class for styling */
+        newText.className = "background-text";
+
+        /* // Set the text content */
+        newText.textContent = userInput;
+
+        /* // Append the new text to the body */
+        document.body.appendChild(newText);
+
+        /* // Set the entered text as the background */
+        document.body.style.background = `url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 0 0"><text x="10" y="40" font-size="16" font-family="Arial" fill="%23333">${userInput}</text></svg>')`;
+        document.body.style.backgroundRepeat = "repeat";
+        document.body.style.backgroundSize = "auto";
+
+        /* // Clear the input field */
+        document.getElementById("userInput").value = "";
+    }
+}

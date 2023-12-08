@@ -8,6 +8,8 @@ body {
   overflow: hidden;
 }
 
+/* Home Button */
+
 .home-button:hover span {
   text-decoration: underline;
 }
@@ -40,6 +42,8 @@ span {
   color: #333;
 }
 
+/* --------- */
+
 h1 {
   position: fixed;
   font-size: 82px;
@@ -49,7 +53,7 @@ h1 {
   color: #EDC14F;
   text-align: left;
   margin-left: 50px;
-bottom: 150px;
+bottom: 200px;
 line-height: 2cm;
 }
 
@@ -59,7 +63,7 @@ p {
   justify-items: center;
    max-width: 70%;
    margin-left: 250px;
-   margin-bottom: 40px;
+   margin-bottom: -80px;
    font-size: 20px;
    color:black;
    font-family: "serenity", sans-serif;
@@ -357,6 +361,8 @@ body.menu-toggled > .meta-link > span {
   font-family: "Rubik", sans-serif;
   font-weight: 500;
 }
+
+
 
 .arrow-button {
   position: fixed;

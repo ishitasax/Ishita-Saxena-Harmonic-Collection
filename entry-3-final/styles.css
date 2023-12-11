@@ -222,10 +222,9 @@ margin-left: 150px;
   }
 
   .horizontal-line {
-    left: 50%; /* Center the line under the heading */
-    transform: translateX(-50%); /* Center the line under the heading */
-    bottom: 10px; /* Adjust bottom position */
-    width: 70%;
+    left: 108%;
+    top: 50px;
+    width: 60%
   }
 
   /* Add space below the line to avoid overlapping */

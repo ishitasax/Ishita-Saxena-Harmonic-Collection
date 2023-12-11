@@ -368,7 +368,7 @@ p {
 
   h1 {
     font-size: 24px;
-    margin-left: 20px;
+    margin-left: 17px;
     margin-bottom: 10px;
     text-align: center;
     position: relative;
@@ -378,7 +378,7 @@ p {
 
   .horizontal-line {
     left: 20%;
-    top: 50px;
+    top: 75px;
     width: 60%
   }
 

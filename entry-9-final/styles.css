@@ -8,6 +8,15 @@
   text-decoration: none;
 }
 
+.horizontal-line {
+	position: fixed;
+	margin-left: -10px;
+	bottom: 660px;
+	width: 45%; /* Set the width of the line */
+	height: 1.5px; /* Set the height of the line */
+	background-color: #682E8C; /* Set the color of the line */
+  }
+
 h2 {
   position: fixed;
   font-size: 82px;
@@ -17,7 +26,7 @@ h2 {
   color: #682E8C;
   text-align: left;
   margin-left: -250px;
-  bottom: 620px;
+  bottom: 623px;
   line-height: 2cm;
 
 }
@@ -96,27 +105,18 @@ span {
 	  z-index:9999;
   }
   .sdtestBg3{
+	top: -90px;
 	  height: 100%;
 	  width: 80%;
 	  background: #fff;
 	  position: absolute;
-	  bottom: -40px;
+	  /* bottom: -46px; */
 	  left: 10%;
 	  border-radius: 20px;
 	  /* box-shadow: 0px 18px 52.8537px rgb(215 228 249 / 50%); */
 	  z-index:1;
   }
-  /* .sdtestBg2{
-	  height: 100%;
-	  width: 90%;
-	  background: #fff;
-	  position: absolute;
-	  bottom: -22px;
-	  left: 5%;
-	  border-radius: 20px;
-	  box-shadow: 0px 18px 52.8537px rgb(215 228 249 / 50%);
-	  z-index:2;
-  } */
+  
   
   .sd_scroll {
 	  height: auto;
@@ -126,13 +126,13 @@ span {
 	  
   .slideshow {
 	  position: relative;
-	  min-height: 400px;
-	  height: auto;
+	  /* min-height: 400px; */
+	  height: 1050px;
 	  background: #fff;
 	  box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
 	  border-radius: 20px;
 	  background-image: url(https://farsighttechnologies.com/wp-content/uploads/2021/03/quote1.png), url(https://farsighttechnologies.com/wp-content/uploads/2021/03/quote.png);
-	  background-position: top 15px left 15px, bottom 40% right 15px;
+	  background-position: top 30px left 15px, bottom 10% right 30px;
 	  background-repeat: no-repeat;
 	  background-size: 180px, 180px;
 	  z-index:3;
@@ -174,57 +174,33 @@ span {
 	  z-index: 999;
   }
   .sdCustomSliderHeadig {
-	  color: #94A2B3;
-	  font-family: "Poppins", Sans-serif;
-	  font-size: 15px;
+	color: #575a69;
+	padding-top: 30px;
+	font-family: "quasimoda", sans-serif;
+	font-weight: 400;
+	  font-size: 17px;
 	  font-weight: 400;
-	  line-height: 1.6em;
+	  line-height: 1.5;
 	  text-align: center;
   }
-  .sdCustomSliderBtn{
-	  display: inline-block;
-	  text-decoration: none;
-	  font-family: montserrat;
-	  background: #E31C3A;
-	  color: #fff;
-	  padding: 12px 25px;
-	  margin-top: 30px;
-	  border-radius: 4px;
-	  outline: none;
-	  font-size: 14px;
-	  font-weight: 500;
-  }
+   
   .sdAllContent{
 	  width:75%;
 	  margin:auto;
   }
-  .thumbnail img {
-	  height: 55px;
-	  width: 55px;
-	  border-radius: 50%;
-	  margin: auto;
-	  margin-top: 15px;
-  }
+  
   .content{
 	  display:block !important;
-	  padding: 5px;
+	  padding: 0px;
   }
   .SdClientName {
 	  text-align: center;
-	  color: #272D4E;
-	  font-family: "Poppins", Sans-serif;
-	  font-size: 16px;
-	  font-weight: 500;
-	  line-height: 1.4em;
+	  color: #000000;
+	  font-family: "quasimoda", sans-serif;
+	  font-weight: 400;
+		font-size: 17px;
+	  line-height: 1.5;
 	  margin-top: 15px;
-  }
-  .SdClientDesc {
-	  text-align: center;
-	  color: #7854F7;
-	  font-family: "Poppins", Sans-serif;
-	  font-size: 14px;
-	  line-height: 1.4em;
-	  margin-bottom: 10px;
   }
   
   
@@ -236,10 +212,6 @@ span {
 	  max-height:240px;
   }
   
-  .thumbnail, .btnNtxt{
-	  width: 100% !important;
-	  display: block !important;
-  }
   
   }
   /* scroll bar */
@@ -266,3 +238,7 @@ span {
   .sd_scroll::-webkit-scrollbar-thumb:hover {
 	  background-color:#a0a0a5;
   }
+
+  
+  
+  

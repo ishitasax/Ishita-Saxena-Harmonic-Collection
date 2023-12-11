@@ -5,7 +5,10 @@ h1 {
   font-weight: 800;
   font-style: normal;
   color: #F574A2;
-  margin-top: 10px;
+  top: 20px;
+  /* transform: rotate(-90deg);
+  transform-origin: bottom left; */
+  /* margin-top: 20px; */
   text-align: left;
   margin-left: 50px;
   /* bottom: 622px;
@@ -26,14 +29,16 @@ h2 {
   font-size: 10px;
 }
 
-hr {
-  border: none;
-  width: 80%;
-  border-top: 1.5px solid #000000; /* Thin line color */
-  margin-top: -50px;
-  margin-left: 40px;
-  padding: 0;
+.horizontal-line {
+  position: absolute;
+  z-index: 1;
+  margin-left: -10px;
+  bottom: 660px;
+  width: 34%; /* Set the width of the line */
+  height: 1.5px; /* Set the height of the line */
+  background-color: #F574A2; /* Set the color of the line */
 }
+
 
 .home-button:hover span {
   text-decoration: underline;
@@ -76,20 +81,6 @@ span {
   }
 }
 
-body {
-  font-family: 'Barlow', sans-serif;
-  font-size: 1.125rem;
-  line-height: 1.5;
-  color: rgb(199, 180, 180);
-  background: white;
-  text-rendering: optimizeLegibility;
-}
-
-
-/* #highlight {
-  color: highlight;
-  font-size: 1.25rem;
-} */
 
 .gallery {
   padding: 0 0 4rem 0;

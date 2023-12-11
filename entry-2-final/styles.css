@@ -8,7 +8,18 @@ body {
   overflow: hidden;
 }
 
+.horizontal-line {
+  z-index: 1;
+  position: absolute; /* Change to absolute positioning */
+  left: 385px; /* Adjust left position as needed */
+  bottom: 230px; /* Adjust top position as needed */
+  width: 50%; /* Set the width of the line */
+  height: 1.5px; /* Set the height of the line */
+  background-color: #EDC14F; /* Set the color of the line */
+}
+
 /* Home Button */
+
 
 .home-button:hover span {
   text-decoration: underline;
@@ -53,7 +64,7 @@ h1 {
   color: #EDC14F;
   text-align: left;
   margin-left: 50px;
-bottom: 200px;
+bottom: 180px;
 line-height: 2cm;
 }
 
@@ -63,10 +74,13 @@ p {
   justify-items: center;
    max-width: 70%;
    margin-left: 250px;
-   margin-bottom: -80px;
+   margin-bottom: -170px;
    font-size: 20px;
    color:black;
-   font-family: "serenity", sans-serif;
+   font-family: "quasimoda", sans-serif;
+   font-weight: 400;
+   font-size: 17px;
+   list-style: 70%;
   
  }
 
@@ -309,58 +323,7 @@ p {
   border-top-left-radius: 10rem;
 }
 
-/* -- YouTube Link Styles -- */
 
-body.menu-toggled > .meta-link > span {
-  color: rgb(30, 30, 30);
-}
-
-#source-link {
-  bottom: 60px;
-}
-
-#source-link > i {
-  color: rgb(94, 106, 210);
-}
-
-#yt-link > i {
-  color: rgb(239, 83, 80);
-}
-
-.meta-link {
-  align-items: center;
-  backdrop-filter: blur(3px);
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 6px;
-  bottom: 10px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-  cursor: pointer;  
-  display: inline-flex;
-  gap: 5px;
-  left: 10px;
-  padding: 10px 20px;
-  position: fixed;
-  text-decoration: none;
-  transition: background-color 400ms, border-color 400ms;
-  z-index: 10000;
-}
-
-.meta-link:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.meta-link > i, .meta-link > span {
-  height: 20px;
-  line-height: 20px;
-}
-
-.meta-link > span {
-  color: white;
-  font-family: "Rubik", sans-serif;
-  font-weight: 500;
-}
 
 
 
@@ -393,4 +356,59 @@ body.menu-toggled > .meta-link > span {
 
 #nextButton {
   right: 10px;
+}
+
+
+/* Add this CSS at the end of your existing styles.css */
+
+/* Responsive styles for iPhone */
+@media only screen and (max-width: 600px) {
+  body {
+    align-items: flex-start;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+    bottom: auto;
+    line-height: 1.2;
+  }
+
+  p {
+    max-width: 90%;
+    margin: 10px 20px 20px;
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .horizontal-line {
+    left: 20px;
+    bottom: 20px; /* Adjust bottom position to avoid overlapping */
+    width: 70%;
+  }
+
+  .home-button {
+    top: 10px;
+    right: 10px;
+  }
+
+  .circle-button {
+    font-size: 1em;
+  }
+
+  span {
+    font-size: 1em;
+  }
+
+  #wrapper {
+    width: 80vmin;
+  }
+
+  /* Add a little more space for the arrow buttons */
+  .arrow-button {
+    bottom: 30%;
+  }
 }

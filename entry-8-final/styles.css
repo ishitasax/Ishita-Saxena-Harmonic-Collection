@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  /* font-family: 'Arial', sans-serif; */
   overflow: hidden;
 }
 
@@ -34,14 +33,14 @@ body {
   /* text-align: center; */
   font-family: "quasimoda", sans-serif;
 font-weight: 400;
-  font-size: 14px;
+  font-size: 17px;
   max-width: 60%;
   margin: 20px;
-  font-size: 18px;
+  /* font-size: 18px; */
   line-height: 1.5;
   white-space: pre-wrap;
   overflow-y: auto; /* Enable vertical scrolling */
-  max-height: 85vh; 
+  max-height: 87vh; 
 }
 
 .vertical-line {

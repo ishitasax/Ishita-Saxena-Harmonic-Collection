@@ -2,10 +2,8 @@
 
 h1{
   position: fixed;
-  font-size: 82px;
   font-family: "etna", sans-serif;
-  /* bottom: 20px;
-  left: 20px; */
+  font-size: 82px;
   color: #E40C9B;
   transform: rotate(-90deg);
   transform-origin: bottom left;
@@ -73,13 +71,11 @@ p {
   text-align: justify;
   font-family: "quasimoda", sans-serif;
 font-weight: 400;
-  font-size: 14px;
+  font-size: 17px;
   max-width: 50%;
-  /* margin: 20px; */
   margin-top: 10%;
   margin-left: 10%;
-  font-size: 18px;
-  line-height: 1.5;
+  list-style: 70%;
   white-space: pre-wrap;
   overflow-y: auto; /* Enable vertical scrolling */
   max-height: 85vh; 

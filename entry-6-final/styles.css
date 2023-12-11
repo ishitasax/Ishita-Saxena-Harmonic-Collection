@@ -7,18 +7,28 @@ body{
   }
   
     h1 {
-        position: fixed;
+        position: absolute;
         font-size: 82px;
         font-family: "etna", sans-serif;
         font-weight: 800;
         font-style: normal;
-        color: #000000;
+        color: #B184CD;
         text-align: left;
         margin-left: 50px;
       bottom: 700px;
       line-height: 2cm;
     }
 
+    .horizontal-line {
+      position: absolute;
+      margin-left: -10px;
+      bottom: 750px;
+      width: 40%; /* Set the width of the line */
+      height: 1.5px; /* Set the height of the line */
+      background-color: #B184CD; /* Set the color of the line */
+    }
+    
+    
   .row {
     margin: 40px auto;
       display: grid;
@@ -28,7 +38,7 @@ body{
   }
 
   .gallery {
-    margin-top: 10%;
+    margin-top: 13%;
   }
 
   .thumbnail{
@@ -118,14 +128,12 @@ body{
   }
   
   .photoInfo h3{
+    font-family: "quasimoda", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
     margin:7px 10px;
     font-weight:normal;
-  }
-  .photoInfo .paintingDate{
-    text-decoration:none;
-    color:#7c7c7c;
-    font-size: 15px;
-    padding:2px;
+    color: #000000;
   }
   
 

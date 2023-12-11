@@ -1,10 +1,18 @@
 body {
-  font-family: 'Arial', sans-serif;
-  margin: 20px;
+  /* font-family: 'Arial', sans-serif;
+  margin: 20px; */
   background-color: #f4f4f4;
 }
 
-
+.horizontal-line {
+  position: fixed;
+  z-index: 1;
+  margin-left: -330px;
+  bottom: 660px;
+  width: 34%; /* Set the width of the line */
+  height: 1.5px; /* Set the height of the line */
+  background-color: #EB7262; /* Set the color of the line */
+}
 
 .home-button:hover span {
   text-decoration: underline;
@@ -82,20 +90,23 @@ h2 {
   text-align: center;
   color: #333;
   margin-bottom: 5px;
-  font-size: 16px; /* Adjust the font size to make h2 smaller */
+  font-size: 17px; /* Adjust the font size to make h2 smaller */
   font-weight: lighter; /* Adjust the font weight to make it lighter */
 }
 
 .line {
   border-top: 1px dashed #afadad;
   margin-bottom: 50px;
+margin-left: 150px;
+  width: 60%;
+  opacity: 50%;
 }
 
 .date-time {
   font-family: "quasimoda", sans-serif;
   margin-top: -10px;
   text-align: center;
-  font-size: 16px;
+  font-size: 17px;
   color: #777;
 }
 

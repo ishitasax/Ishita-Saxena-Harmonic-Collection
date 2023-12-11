@@ -377,17 +377,17 @@ p {
     line-height: 1.2;
   }
 
+  .horizontal-line {
+    left: 15%;
+    top: 50px;
+    width: 70%
+  }
+
   p {
     max-width: 90%;
     margin: 10px 20px 20px;
     font-size: 14px;
     text-align: justify;
-  }
-
-  .horizontal-line {
-    left: 20px;
-    bottom: 20px; /* Adjust bottom position to avoid overlapping */
-    width: 70%;
   }
 
   .home-button {

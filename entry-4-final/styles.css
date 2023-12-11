@@ -219,3 +219,85 @@ footer {
 #nextButton {
   right: 10px;
 }
+
+/* Responsive styles for iPhone */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+    margin-left: -10px;
+    margin-bottom: 50px;
+    text-align: center;
+    position: relative;
+    bottom: auto;
+    line-height: 1.2;
+  }
+
+  .horizontal-line {
+    left: 20%;
+    top: 70px;
+    width: 60%;
+  }
+
+  p {
+    max-width: 90%;
+    margin: 10px 20px 20px;
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .home-button {
+    top: 10px;
+    right: 10px;
+  }
+
+  .circle-button {
+    font-size: 1em;
+  }
+
+  span {
+    font-size: 1em;
+  }
+
+  .gallery {
+    margin: 0;
+  }
+
+  .img-container {
+    margin-bottom: 20px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .category {
+    font-size: 14px;
+  }
+
+  .column-xs-12 {
+    max-width: 100%;
+    flex-basis: 100%;
+    box-sizing: border-box;
+    margin: 0 0 20px;
+  }
+
+  .column-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .column-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .img-content-hover {
+    padding: 20px;
+  }
+
+  /* Add a little more space for the arrow buttons */
+  .arrow-button {
+    bottom: 30%;
+  }
+}
+

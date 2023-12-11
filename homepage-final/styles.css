@@ -293,3 +293,10 @@ font-weight: 400;
 /* .circle:hover {
   transform: scale(1.2);
 } */
+
+
+@media (max-width: 390px) {
+  #wrapper {
+    top: 990px;
+  }
+}

@@ -24,7 +24,7 @@ function submitAnswer() {
       newText.style.color = randomColor;
 
       // Set a slightly bigger font size
-      newText.style.fontSize = "24px"; // You can adjust the size as needed
+      newText.style.fontSize = "px"; // You can adjust the size as needed
 
       newText.style.position = "fixed";
       newText.style.left = `${xPos}px`;

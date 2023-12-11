@@ -94,6 +94,8 @@ span {
   width: 80%;
   height: 400px;
   cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
   overflow: hidden;
   &:hover .img-content-hover {
     display: block;
@@ -107,9 +109,9 @@ img {
 	object-fit: cover;
   transform: scale(1);
   transition: all 0.3s ease-in-out;
-  &:hover {
+  /* &:hover {
     transform: scale(1.05);
-  }
+  } */
 }
 
 .img-content-hover {

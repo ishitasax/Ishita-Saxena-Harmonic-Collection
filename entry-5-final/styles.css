@@ -222,7 +222,7 @@ body {
   }
 }
 
-.cursor {
+/* .cursor {
   position: fixed;
   z-index: 10;
   top: 0;
@@ -245,7 +245,7 @@ body {
 .cursor2 {
   --size: 2px;
   transition-duration: .7s;
-}
+} */
 
 
 

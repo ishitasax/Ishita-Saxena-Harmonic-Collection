@@ -57,6 +57,17 @@ body {
   cursor: pointer;
 }
 
+.horizontal-line {
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  bottom: 630px;
+  width: 34%; /* Set the width of the line */
+  height: 1.5px; /* Set the height of the line */
+  background-color: #1D3D93; /* Set the color of the line */
+}
+
+
 h1 {
   position: fixed;
   font-size: 82px;

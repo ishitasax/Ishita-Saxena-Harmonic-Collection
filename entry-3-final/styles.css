@@ -208,3 +208,33 @@ margin-left: 150px;
 #nextButton {
   right: 10px;
 }
+
+/* Responsive styles for iPhone */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+    bottom: auto;
+    line-height: 1.2;
+  }
+
+  .horizontal-line {
+    left: 50%; /* Center the line under the heading */
+    transform: translateX(-50%); /* Center the line under the heading */
+    bottom: 10px; /* Adjust bottom position */
+    width: 70%;
+  }
+
+  /* Add space below the line to avoid overlapping */
+  .receipt {
+    margin-bottom: 20px;
+  }
+
+  /* Add a little more space for the arrow buttons */
+  .arrow-button {
+    bottom: 30%;
+  }
+}

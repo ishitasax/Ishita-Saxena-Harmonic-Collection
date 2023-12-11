@@ -358,9 +358,6 @@ p {
   right: 10px;
 }
 
-
-/* Add this CSS at the end of your existing styles.css */
-
 /* Responsive styles for iPhone */
 @media only screen and (max-width: 600px) {
   body {

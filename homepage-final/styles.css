@@ -294,11 +294,6 @@ font-weight: 400;
   background-color:  #1D3D93; /* Change color on hover */
 }
 
-/* .circle:hover {
-  transform: scale(1.2);
-} */
-
-
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 48px;
@@ -322,9 +317,5 @@ font-weight: 400;
     width: 120px;
     height: 128px;
     font-size: 16px;
-  }
-
-  .circle img {
-    object-fit: cover;
   }
 }

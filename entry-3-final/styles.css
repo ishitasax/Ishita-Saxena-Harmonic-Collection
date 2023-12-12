@@ -77,16 +77,6 @@ h1 {
   animation: fadeIn 1s ease-out; /* Add animation for fade-in effect */
 }
 
-/* @keyframes fadeIn {
-  from {
-      filter: blur(8px);
-      opacity: 0;
-  }
-  to {
-      filter: blur(0);
-      opacity: 1;
-  }
-} */
 
 h2 {
   font-family: "quasimoda", sans-serif;

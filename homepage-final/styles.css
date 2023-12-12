@@ -278,7 +278,7 @@ font-weight: 400;
   color: #ffffff;
 }
 
-.circle-8:hover {
+.circle-9:hover {
   background-color:  #682E8C; /* Change color on hover */
 }
 
@@ -286,8 +286,12 @@ font-weight: 400;
   position: absolute;
   margin-left: -210px;
   margin-top: 430px;
-  background-color: #1D3D93;
+  /* background-color: #1D3D93; */
   color: #ffffff;
+}
+
+.circle-10:hover {
+  background-color:  #1D3D93; /* Change color on hover */
 }
 
 /* .circle:hover {

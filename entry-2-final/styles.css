@@ -376,17 +376,17 @@ p {
 
   h1 {
     font-size: 24px;
-    margin-left: 17px;
+    margin-left: 10px;
     margin-bottom: 10px;
     text-align: center;
     position: relative;
-    bottom: auto;
+    top: 10px;
     line-height: 1.2;
   }
 
   .horizontal-line {
     left: 20%;
-    top: 75px;
+    top: 60px;
     width: 60%
   }
 

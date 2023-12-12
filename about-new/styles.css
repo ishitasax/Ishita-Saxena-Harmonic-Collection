@@ -26,6 +26,9 @@ body {
 }
 
 .home-button {
+  font-family: "quasimoda", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   position: fixed;
   top: 20px;
   right: 20px;
@@ -71,10 +74,10 @@ p {
   text-align: justify;
   font-family: "quasimoda", sans-serif;
 font-weight: 400;
-  font-size: 17px;
+  font-size: 20px;
   max-width: 50%;
   margin-top: 10%;
-  margin-left: 10%;
+  margin-left: 5%;
   list-style: 70%;
   white-space: pre-wrap;
   overflow-y: auto; /* Enable vertical scrolling */
@@ -124,4 +127,23 @@ font-weight: 400;
 
 #nextButton {
   right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Adjust styles for smaller screens, e.g., iPhone */
+  h1 {
+
+    font-size: 24px;
+    margin-bottom: 250px;
+  }
+
+  .vertical-line {
+    left: 2%;
+    bottom: 25%;
+  }
+
+  p {
+    font-size: 14px;
+    max-width: 90%;
+  }
 }

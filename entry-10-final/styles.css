@@ -37,6 +37,9 @@ body {
 }
 
 .home-button {
+  font-family: "quasimoda", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   position: fixed;
   top: 20px;
   right: 20px;
@@ -121,47 +124,62 @@ span {
   right: 10px;
 }
 
-@media only screen and (max-width: 768px) {
-  h1 {
+
+    @media only screen and (max-width: 768px) {
+      h1 {
     font-size: 24px;
-  }
+    line-height: 1cm;
+    top: 40px;
+      }
 
-  .circle-button {
-    width: 20px;
-    height: 20px;
-    font-size: 1em;
-  }
+      .horizontal-line {
+        position: absolute;
+        z-index: 1;
+        left: 0px;
+        /* bottom: 630px; */
+        top: 140px;
+        width: 50%;
+        height: 1.5px;
+        background-color: #1D3D93;
+    }
 
-  .home-button span {
-    font-size: 1em;
-  }
+      .circle-button {
+        width: 20px;
+        height: 20px;
+        font-size: 1em;
+      }
 
-  .arrow-link {
-    font-size: 18px;
-    width: 25px;
-    height: 25px;
-    line-height: 30px;
-  }
+      .home-button span {
+        font-size: 1em;
+      }
 
-  #prevButton {
-    width: 30px;
-    height: 30px;
-  }
+      .arrow-link {
+        font-size: 18px;
+        width: 25px;
+        height: 25px;
+        line-height: 30px;
+      }
 
-  .container {
-    padding: 10px;
-  }
+      #prevButton {
+        width: 30px;
+        height: 30px;
+      }
 
-  label {
-    font-size: 16px;
-  }
+      .container {
+        padding: 10px;
+      }
 
-  #userInput {
-    padding: 8px;
-  }
+      label {
+        font-size: 16px;
+      }
 
-  button {
-    padding: 8px 15px;
-    font-size: 14px;
-  }
-}
+      #userInput {
+        padding: 8px;
+      }
+
+      button {
+        padding: 8px 15px;
+        font-size: 14px;
+      }
+    }
+  

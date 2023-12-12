@@ -15,15 +15,15 @@ body{
         color: #B184CD;
         text-align: left;
         margin-left: 50px;
-      bottom: 700px;
+      bottom: 680px;
       line-height: 2cm;
     }
 
     .horizontal-line {
       position: absolute;
-      margin-left: -10px;
-      bottom: 750px;
-      width: 40%; /* Set the width of the line */
+      margin-left: 45px;
+      bottom: 730px;
+      width: 48%; /* Set the width of the line */
       height: 1.5px; /* Set the height of the line */
       background-color: #B184CD; /* Set the color of the line */
     }

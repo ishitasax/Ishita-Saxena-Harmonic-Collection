@@ -5,7 +5,7 @@ h1 {
   font-weight: 800;
   font-style: normal;
   color: #F574A2;
-  top: 20px;
+  top: -10px;
   /* transform: rotate(-90deg);
   transform-origin: bottom left; */
   /* margin-top: 20px; */
@@ -33,7 +33,7 @@ h2 {
   position: absolute;
   z-index: 1;
   margin-left: -10px;
-  bottom: 660px;
+  bottom: 690px;
   width: 34%; /* Set the width of the line */
   height: 1.5px; /* Set the height of the line */
   background-color: #F574A2; /* Set the color of the line */

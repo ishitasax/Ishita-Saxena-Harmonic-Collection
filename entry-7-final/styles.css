@@ -16,6 +16,17 @@ h1 {
     line-height: 70px;
   }
 
+  .vertical-line {
+    position: fixed;
+    left: 15%;
+    bottom: 8%;
+    transform: translateX(-50%); /* Center the line horizontally */
+    width: 1.5px; /* Adjust the width of the line */
+    height: 80vh;
+    background-color: #44A98B; /* Adjust the color of the line */
+    z-index: 1; /* Ensure the line is above other content */
+  }
+
   .arrow-button {
     position: fixed;
     bottom: 50%;
@@ -47,7 +58,14 @@ h1 {
     right: 10px;
   }
 
+  .home-button:hover span {
+    text-decoration: underline;
+  }
+
   .home-button {
+    font-family: "quasimoda", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
     position: fixed;
     top: 20px;
     right: 20px;
@@ -56,6 +74,7 @@ h1 {
     display: inline-block; /* Add this to make the anchor behave like a block element */
     text-decoration: none;
   }
+  
   
   .circle-button {
     width: 30px;
@@ -201,3 +220,60 @@ body {
 			z-index: 10;
 		}
 	}
+
+/* Responsive */
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    transform: rotate(0deg);
+    font-size: 24px;
+    margin-left: -410px;
+    top: 50px;
+    text-align: center;
+    position: relative;
+    bottom: auto;
+    line-height: 1.2;
+  }
+
+  .vertical-line {
+    transform: rotate(0deg);
+    width: 40%;
+    height: 1.5px;
+    transform: translateY(-50%);
+    left: 14%;
+    bottom: auto;
+    top: 10%;
+}
+
+  .home-button {
+    top: 10px;
+    right: 10px;
+  }
+}
+  
+/* .carousel-item {
+  width: 80vw;
+  height: auto;
+  margin: 10px auto;
+  position: static;
+  transform: none !important;
+} */
+
+.gallery {
+  width: 80vw;
+  height: auto;
+}
+
+
+.home-button {
+  top: 10px;
+  right: 10px;
+}
+
+.circle-button {
+  font-size: 1em;
+}
+
+span {
+  font-size: 1em;
+}

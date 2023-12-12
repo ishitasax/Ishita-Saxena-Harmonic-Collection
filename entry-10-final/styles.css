@@ -120,3 +120,48 @@ span {
 #nextButton {
   right: 10px;
 }
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .circle-button {
+    width: 20px;
+    height: 20px;
+    font-size: 1em;
+  }
+
+  .home-button span {
+    font-size: 1em;
+  }
+
+  .arrow-link {
+    font-size: 18px;
+    width: 25px;
+    height: 25px;
+    line-height: 30px;
+  }
+
+  #prevButton {
+    width: 30px;
+    height: 30px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  label {
+    font-size: 16px;
+  }
+
+  #userInput {
+    padding: 8px;
+  }
+
+  button {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+}

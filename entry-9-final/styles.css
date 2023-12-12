@@ -257,9 +257,9 @@ span {
   
   @media only screen and (max-width: 576px) {
 	h2 {
-		z-index: 2;
-	  font-size: 18px;
-	  margin-left: -100px;
+		z-index: 100000;
+	  font-size: 14px;
+	  margin-left: 400px;
 	}
 
 	.circle-button {

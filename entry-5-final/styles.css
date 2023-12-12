@@ -227,7 +227,7 @@ body {
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 24px;
-    margin-left: -30px;
+    margin-left: 10px;
     top: 20px;
     text-align: center;
     position: relative;
@@ -237,8 +237,8 @@ body {
 
   .horizontal-line {
     position: absolute;
-    margin-left: 80px;
-    bottom: 750px;
+    left: 120px;
+    top: 90px;
     width: 45%;
 }
 

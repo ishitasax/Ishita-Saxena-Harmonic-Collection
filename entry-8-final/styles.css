@@ -135,7 +135,7 @@ span {
     transform: rotate(0deg);
     font-size: 24px;
     margin-left: 0;
-    margin-bottom: 0;
+    top: 50px;
     line-height: 30px;
   }
 
@@ -150,12 +150,11 @@ span {
   }
 }
 
-h1 {
+/* h1 {
   transform: rotate(0deg);
     font-size: 24px;
     margin-left: 0;
     top: 30px;
-    /* margin-bottom: 0; */
     line-height: 30px;
 }
 
@@ -166,8 +165,7 @@ h1 {
   position: relative;
   transform: translateY(-50%);
   left: 25%;
-  /* bottom: auto; */
-  top: 120px;
+  top: 50px;
 }
 
   .arrow-button {
@@ -178,4 +176,4 @@ h1 {
     line-height: 20px;
   }
 
-  
+   */

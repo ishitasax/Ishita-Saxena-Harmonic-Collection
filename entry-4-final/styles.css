@@ -45,6 +45,9 @@ h2 {
 }
 
 .home-button {
+  font-family: "quasimoda", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   position: fixed;
   top: 20px;
   right: 20px;
@@ -248,6 +251,7 @@ footer {
   .home-button {
     top: 10px;
     right: 10px;
+    font-size: 14px;
   }
 
   .circle-button {

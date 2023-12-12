@@ -222,47 +222,57 @@ body {
   }
 }
 
-/* .cursor {
-  position: fixed;
-  z-index: 10;
-  top: 0;
-  left: 0;
-  --size: 40px;
-  width: var(--size);
-  height: var(--size);
-  border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, .2);
-  margin: calc(var(--size) * -0.5) 0 0 calc(var(--size) * -0.5);
-  transition: transform .85s cubic-bezier(0, 0.02, 0, 1);
-  display: none;
-  pointer-events: none;
-  
-  @media (pointer: fine) {
-    display: block;
+ /* Responsive styles for iPhone */
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+    margin-left: -30px;
+    top: 20px;
+    text-align: center;
+    position: relative;
+    bottom: auto;
+    line-height: 1.2;
   }
+
+  .horizontal-line {
+    position: absolute;
+    margin-left: 80px;
+    bottom: 750px;
+    width: 45%;
 }
 
-.cursor2 {
-  --size: 2px;
-  transition-duration: .7s;
+  .home-button {
+    top: 10px;
+    right: 10px;
+  }
+}
+  
+/* .carousel-item {
+  width: 80vw;
+  height: auto;
+  margin: 10px auto;
+  position: static;
+  transform: none !important;
 } */
 
+.carousel-box {
+  width: 100%;
+  height: auto;
+  width: 80vw;
+  height: auto;
+}
 
 
+.home-button {
+  top: 10px;
+  right: 10px;
+}
 
+.circle-button {
+  font-size: 1em;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+span {
+  font-size: 1em;
+}
